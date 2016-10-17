@@ -16,5 +16,26 @@ namespace _17Oct16_1
         {
             InitializeComponent();
         }
+
+        private void btnDog_Click(object sender, EventArgs e)
+        {
+            Pet myDog = new Pet();
+            //myDog.Name = "whatever I want";
+            MessageBox.Show("Your dog's name is " + myDog.Name);
+        }
+
+        private void btnCat_Click(object sender, EventArgs e)
+        {
+            Pet myCat = new Pet();
+            //myCat.Name = "skittles";
+            MessageBox.Show("Your cat's name is " + myCat.Name);
+        }
+
+        private void btnHuman_Click(object sender, EventArgs e)
+        {
+            Pet myHuman = new Pet();
+            //myHuman.Name = "Bitch";
+            MessageBox.Show("You sick bastard");
+        }
     }
 }
